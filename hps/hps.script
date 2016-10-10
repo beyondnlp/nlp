@@ -1,0 +1,7 @@
+!!!!!!!!!!!!!!!!!!!!!!!
+! Read hps Lexicon !
+!!!!!!!!!!!!!!!!!!!!!!!
+
+read lexc hps.lexc
+define Lexicon ;
+

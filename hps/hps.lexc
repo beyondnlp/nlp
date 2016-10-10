@@ -1,0 +1,48 @@
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!                     HPS by FST                    !!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+!noun : /n
+!josa : /j
+
+
+Multichar_Symbols   /j /n
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+LEXICON Root
+        noun ;! 일반명사
+
+
+
+LEXICON noun !일반명사
+이성친구/n	nNext;
+이성동료/n	nNext;
+
+LEXICON josa !조사
+을/j	jNext;
+이/j	jNext;
+는/j	jNext;
+로/j	jNext;
+만/j	jNext;
+은/j	jNext;
+가/j	jNext;
+과/j	jNext;
+와/j	jNext;
+도/j	jNext;
+들/j	jNext;
+
+LEXICON nNext
+        josa;
+        finLexicon;
+
+LEXICON jNext
+        finLexicon;
+
+LEXICON finLexicon
+     # ;
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!! End of Document !!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
